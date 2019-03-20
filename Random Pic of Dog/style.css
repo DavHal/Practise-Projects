@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Montserrat, Arial, sans-serif;
+    text-align: center;
+}
+
+#title-container{
+    overflow: auto; 
+    width: 100%;
+    background-image: linear-gradient(120deg, #1E5799 0%, #7db9e8 100%);
+    margin-bottom: 30px;
+}
+
+#title{
+    width: 500px;
+    font-size: 20px;
+    margin: 30px auto;
+    padding 40px;
+    color: white;
+}
+
+#img-container{
+    margin-top: 10
+    outline: none;
+    margin-bottom: 25px;
+}
+
+#img-container img{
+    height: 350px;
+    width: auto;
+    border-radius: 30px;
+    outline: none;
+}
+
+#button{
+    font-family: Montserrat, Arial, sans-serif;
+    height: 60px;
+    font-size: 20px;
+    color: #1E5799;
+    font-weight: 200;
+    /*padding: 5px;   
+    margin: 20px;*/
+    border: 1px solid #7db9e8;
+    transition: border 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+#dog-api-text{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+#doge-container{
+}
+
+#doge{
+    position: absolute;
+    top: -0px;
+    width:70px;
+    height: auto;
+    transition: top 0.3s;
+    z-index: -1;
+}
+
+#button-container{
+    position: relative;
+    width;
+}
+
+#button:focus {
+    outline: none;
+}
+
+#button:active {
+    transform: translateY(2px);
+}
+
+#button-container:hover #doge{
+    top: -35px;
+}
